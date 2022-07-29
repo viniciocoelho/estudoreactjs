@@ -1,17 +1,14 @@
 import React from "react";
-import Comment from './components/Comment'
+import Comment from "./components/Comment";
 
 function App() {
-    return (
-        <>
-            <h1>Comentários</h1>
-            <Comment />
-            <Comment />
-            <Comment />
-                        
-        </>
-        
-    )
+  return (
+    <>
+      <h1>Comentários</h1>
+      <Comment />
+      <Comment />
+    </>
+  );
 }
 
-export default App
+export default App;
